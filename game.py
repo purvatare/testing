@@ -5,11 +5,11 @@ print(logo.game_logo)
 
 def number_guessing_game():
     print("🎮 Welcome to the Number Guessing Game!")
-    print("I'm thinking of a number between 1 and 100.")
+    print("I'm thinking of a number between 1 and 50.")
     print("You have 5 lives to guess the number!")
 
     # Generate random number
-    number_to_guess = random.randint(1, 100)
+    number_to_guess = random.randint(1, 50)
     attempts = 0
     lives = 5  # maximum attempts allowed
 
